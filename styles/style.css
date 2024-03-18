@@ -1,0 +1,32 @@
+:root {
+    --netflix-red: #e50914;
+}
+
+header svg {
+    width: 150px;
+    fill: var(--netflix-red);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background-color: var(--netflix-red);
+    font-weight: bold;
+    color: white;
+    outline: none;
+}
+
+button:hover {
+    background-color: #ca0812;
+}
+
+header button {
+    padding: 8px 10px;
+    border-radius: 5px;
+}
